@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.main{
+    background-image: url(bg.jpg);
+    height: 120vh;
+    @media=width:100%;
+   padding-top: 10px;
+   background-position:center;
+   background-size: cover;
+    
+}
+
+.contact{
+    padding: 30px;
+    padding-left:15rem;
+    padding-top: 10rem;
+    text-align: center;
+    
+  
+    
+}
+.box{
+    background-color: rgba(210, 212, 214, 0.26);
+    backdrop-filter: blur(4px);
+    flex: 1 1 120px;
+    text-align: center;
+    padding: 1rem 0rem;
+    width: fit-content;
+    padding-left:0%;
+    
+    justify-content: center;
+    gap: 30px;
+   
+}
+.box input{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    
+}
+.log{
+    padding-top: 0.6rem;
+}
+.log button{
+    padding: 0.3rem;
+}

@@ -1,0 +1,24 @@
+body {
+    font-size: 1.2em;
+    font-family: 'Lato';
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .box {
+    width: 40%;
+    height: 200px;
+    background: orange;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .a {
+    margin: 120vh auto 0 auto;
+  }
+  
+  .b {
+    margin: 40vh auto 0 auto;
+  }

@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  .Adar{
+    background-color: #f5c4c3;
+  }
+  .Adr{
+    /* background-image: linear-gradient(to right,blue,white); */
+     background-image:linear-gradient(to right,#f053a9,#f5c4c3); 
+  }
+ .main-container {
+  background: url(homepage.png);
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+}
+  .book_1{
+      padding: 5rem;
+      padding-top: 3rem;
+      height: 5px;
+  }
+  .main-container{
+    background-color: #f5c4c381;
+    border: #f5c4c3;
+  }
+  .input text{
+    padding: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2px;
+    color: #f053a9;
+  }
+  .book_1{
+    padding-left: 2rem;
+  }
+  .book_now{
+    font-size: 1rem;
+    background-color: rgb(243, 240, 47);
+    width: 100%;
+  }
+  .Book_Ac{
+
+    position: absolute;
+    left: 6pc;
+    height: 7pc;
+    top: 2pc;
+     color: aliceblue;
+ }
+ .Book_Ac h1{
+     color:rgb(243, 10, 10) ;
+     /* font-style:; */
+ }
+ 
+
+ footer{
+
+  width: 100%;
+  /* position:; */
+  bottom:0%;
+  background: linear-gradient(to right,#00093c,#2d0b00);
+  color: #fff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
+  background-position: 0%;
+  background-size:100%;
+  
+}
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.col{
+flex-basis: 25%;
+padding: 10px;
+}
+.col :nth-child(2){
+  flex-basis: 15%;
+}
+.logo{
+  width: 80px;
+  margin-bottom: 30px;
+
+}
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+
+}
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+form {
+  padding-bottom: 15px;
+
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+form .fa-solid{
+     font-size: 14px;
+     margin-right: 10px;
+     padding: 4px;;
+  }
+form input{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+
+}
+form button {
+  background: transparent;
+  border: 0;
+  outline:none;
+  cursor: pointer;
+}
+form button .fas{
+  font-size: 16px;
+  color: #ccc;
+
+
+}
+.social-icons .fa-brands{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+hr{
+  width: 90%;
+  border: 0;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.copyright{
+  text-align: center;
+
+}
+.underline{
+width: 100%;
+height: 5px;
+background: #767676;
+border-radius: 3px;
+position: absolute;
+top: 25px;
+left: 0;
+overflow: hidden;
+}
+.underline span{
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving{
+  0%{
+    left: -20px;
+  }
+  100%{
+    left: 100%;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    bottom: unset;
+  }
+}
+  
